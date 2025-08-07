@@ -1,8 +1,5 @@
 class Solution {
     public static int BinarySearch(int arr[],int left,int right,int target){
-     
-     
-    
      while(left<=right){
         int mid=left+(right-left)/2;
         if(arr[mid]==target){
